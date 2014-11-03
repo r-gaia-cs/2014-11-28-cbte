@@ -1,13 +1,13 @@
 ---
 layout: homepage
 root: .
-address: CBTE
+address: CBTE. Rua Giuseppe Máximo Scolfaro, 10.000 - Polo II de Alta Tecnologia - Campinas/SP.
 country: Brazil
 humandate: 28 de novembro de 2014
 humantime: 14:00-17:00
 startdate: 2014-11-28
 enddate: 2014-11-28
-latlng: -22.817387,-47.06843
+latlng: -22.802888,-47.056702
 registration: open
 instructor: ["Raniere Silva"]
 helper: []
