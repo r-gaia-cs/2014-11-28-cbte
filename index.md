@@ -23,17 +23,18 @@ helper: []
 
 **Público alvo:** pesquisadores do CBTE.
 
-{% if page.latlng %}
 **Onde**: {{ page.address }}.
+{% if page.latlng %}
 Direções podem ser obtidas no
-<a href="//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
+[OpenStreetMap](//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16)
 ou
-<a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
+[Google Maps](//maps.google.com/maps?q={{ page.latlng }}).
 {% endif %}
 
 **Requisitos:**
 
--   Realizar a inscrição.
+-   Realizar a inscrição ([envie um email para
+    {{site.contact}}](mailto:{{site.contact}}?subject=Inscrição Introdução a Pandas no CBTE&body=Gostaria de me participar do evento.))
 -   Trazer seu notebook com alguns softwares instalados. **A lista dos
     softwares encontra-se [no fim dessa página](#configurao).**
 
@@ -57,9 +58,10 @@ Dúvidas devem ser encaminhadas por email para
 
 ## Configuração
 
-Para participar nesse workshop, você vai precisar dos
-seguintes programas instalados. Por favor, tenha certeza de ter instalado
-todos os programas.
+Para participar dessa atividade, você vai precisar de
+alguns programas instalados. Instruções para a instalação dos programas
+encontram-se logo a baixo, separadas por sistema operacional. Por favor, tenha
+certeza de ter instalado todos os programas.
 
 ### Windows
 
