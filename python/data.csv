@@ -1,4 +1,4 @@
-Date;Time;Chamber;Treatment;sampling time;chamber volume;chamber area;Soil °C T;Air °C T;°K T;Pressure (mb);Pressure (atm);Date analyses;N2O (ppb);CH4 (ppm);CO2 (ppm)
+Date;Time;Chamber;Treatment;sampling time;chamber volume;chamber area;Soil C T;Air C T;K T;Pressure (mb);Pressure (atm);Date analyses;N2O (ppb);CH4 (ppm);CO2 (ppm)
 24/11/2013;09:00;1;Sem palha;0;83,6;4,761904762;16;19,4;289;969;0,956403;25/11/2013;237;2.034;397.150
 24/11/2013;09:00;1;Sem palha;15;83,6;4,761904762;16;19,4;289;969;0,956403;25/11/2013;330;1.912;1.341.827
 24/11/2013;09:00;1;Sem palha;30;83,6;4,761904762;16;19,4;289;969;0,956403;25/11/2013;348;2.105;2.171.119
