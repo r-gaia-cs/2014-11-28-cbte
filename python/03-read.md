@@ -4,6 +4,12 @@ root: ..
 title: Lendo dados
 ---
 
+## Objetivos
+
+- Ler dados de um CSV com Pandas.
+
+## Exemplo
+
 Em Python você pode abrir um arquivo utilizando a função `open()`. Se você
 quiser imprimir as cinco primeiras linhas você pode utilizar algo como:
 
@@ -57,3 +63,5 @@ pandas.read_csv("data.csv", sep=";", parse_dates=[[0,1]],
                            'Air C T': lambda x: float(x.replace(',','.')),
                            'Pressure (atm)': lambda x: float(x.replace(',','.'))})
 ~~~
+
+## Exercício
