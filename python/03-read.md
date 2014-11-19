@@ -14,7 +14,7 @@ Em Python você pode abrir um arquivo utilizando a função `open()`. Se você
 quiser imprimir as cinco primeiras linhas você pode utilizar algo como:
 
 ~~~
-with open("data.csv", "r") as arquivo:
+with open("example.csv", "r") as arquivo:
     numero_da_linha = 0
     for linha in arquivo:
         print(linha)
@@ -30,7 +30,7 @@ formatos incluindo CSV, HDF, SQL, JSON, HTML e até "Excel". Para ler nosso
 arquivo CSV podemos utilizar
 
 ~~~
-pandas.read_csv("data.csv")
+pandas.read_csv("example.csv")
 ~~~
 
 Você irá notar que a tabela obtida apresenta alguns problemas. Esses problemas
@@ -40,7 +40,7 @@ colunas. Como nosso arquivo utiliza `;` para separa as colunas precisamos
 informar isso para o Pandas:
 
 ~~~
-pandas.read_csv("data.csv", sep=";")
+pandas.read_csv("example.csv", sep=";")
 ~~~
 
 Na primeira coluna temos o dia da medição e na segunda a hora. Pandas possui uma
@@ -48,7 +48,7 @@ forma especial de lidar com datas e quando a data encontra-se dividido entre
 colunas, como é o nosso caso, precisamos dar uma dica para o Pandas:
 
 ~~~
-pandas.read_csv("data.csv", sep=";", parse_dates=[[0,1]])
+pandas.read_csv("example.csv", sep=";", parse_dates=[[0,1]])
 ~~~
 
 Por último, se você estiver utilizando decimais no formato europeu (o mesmo
@@ -57,7 +57,7 @@ sugestão encontrada no stackoverflow](http://stackoverflow.com/a/11763490) para
 que os números sejam interpretados corretamente.
 
 ~~~
-pandas.read_csv("data.csv", sep=";", parse_dates=[[0,1]],
+pandas.read_csv("example.csv", sep=";", parse_dates=[[0,1]],
                converters={'chamber volume': lambda x: float(x.replace(',','.')),
                            'chamber area': lambda x: float(x.replace(',','.')),
                            'Air C T': lambda x: float(x.replace(',','.')),

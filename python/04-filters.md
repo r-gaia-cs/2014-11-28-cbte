@@ -17,7 +17,7 @@ title: Filtrando dados
 antes de tentar os exemplos dessa lição.
 
 ~~~
-meus_dados = pandas.read_csv("data.csv", sep=";", parse_dates=[[0,1]],
+meus_dados = pandas.read_csv("example.csv", sep=";", parse_dates=[[0,1]],
                converters={"chamber volume": lambda x: float(x.replace(",",".")),
                            "chamber area": lambda x: float(x.replace(",",".")),
                            "Air C T": lambda x: float(x.replace(",",".")),

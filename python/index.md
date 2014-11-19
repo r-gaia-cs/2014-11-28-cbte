@@ -7,8 +7,9 @@ title: Introdução a Pandas
 [Pandas](http://pandas.pydata.org/) é uma biblioteca para
 [Python](http://python.org/) voltada a análise de dados. A melhor maneira de
 aprendê-la é tentando fazer algo útil e portanto essa introdução será feita em
-cima da análise do fluxos de gases cujos dados encontram-se disponíveis
-[aqui](data.csv).
+cima da análise do fluxos de gases. Para acompanhar os exemplos você vai
+precisar do arquivo [example.csv](example.csv) e para o exercícios do arquivo
+[exercise.csv](exercise.csv].
 
 <div class="toc" markdown="1">
 
