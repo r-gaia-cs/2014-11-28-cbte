@@ -45,6 +45,8 @@ Dúvidas devem ser encaminhadas por email para
 
 ## Cronograma
 
+**Guias para cada um das partes encontram-se em [aqui](python/index.html).**
+
 <table class="table table-striped">
 <tr> <td>14:00</td> <td>Abertura</td> </tr>
 <tr> <td>14:20</td> <td>IPython Notebook</td> </tr>
