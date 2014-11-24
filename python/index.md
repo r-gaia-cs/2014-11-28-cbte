@@ -8,15 +8,15 @@ title: Introdução a Pandas
 [Python](http://python.org/) voltada a análise de dados. A melhor maneira de
 aprendê-la é tentando fazer algo útil e portanto essa introdução será feita em
 cima da análise do fluxos de gases. Para acompanhar os exemplos você vai
-precisar do arquivo [example.csv](example.csv) e para o exercícios do arquivo
-[exercise.csv](exercise.csv].
+precisar do arquivo [example.csv](example.csv).
 
 <div class="toc" markdown="1">
 
 1.  [Motivação](01-motivation.html)
 2.  [Python e IPython Notebook](02-python.html)
-3.  [Lendo dados](03-read.html)
-4.  [Filtrando dados](04-filters.html)
-5.  [Visualizando dados](05-plots.html)
+3.  [Rápida Introdução ao Python](03-intro-python.html)
+4.  [Lendo dados](04-read.html)
+5.  [Filtrando dados](05-filters.html)
+6.  [Visualizando dados](06-plots.html)
 
 </div>
