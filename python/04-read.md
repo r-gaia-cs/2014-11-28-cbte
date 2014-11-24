@@ -65,3 +65,5 @@ pandas.read_csv("example.csv", sep=";", parse_dates=[[0,1]],
 ~~~
 
 ## Exercício
+
+1. Tente ler um outro arquivo de dados que você possua em sua máquina.

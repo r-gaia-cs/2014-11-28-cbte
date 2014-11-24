@@ -120,3 +120,5 @@ minha_visualização.right_ax.set_ylabel('K T')
 ~~~
 
 ## Exercício
+
+1. Tente criar outros gráficos utilizando outros filtros.
