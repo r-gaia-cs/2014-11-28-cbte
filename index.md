@@ -10,7 +10,7 @@ enddate: 2014-11-28
 latlng: -22.802888,-47.056702
 registration: open
 instructor: ["Raniere Silva"]
-helper: []
+helper: ["Wanderson Luiz"]
 ---
 
 ## Informações Gerais
